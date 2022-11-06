@@ -1,0 +1,52 @@
+
+@media screen and (max-width: 900px){
+
+    .pricecardcontainer {
+        
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .free {
+        border-right: 0px solid black;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+
+    .pricecardsection {
+        padding: 60px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        border: 0;
+
+    }
+
+    
+
+    .optioncontainet {
+        width: 80%;    
+    }
+
+    .free {
+        border-right: 0px solid black;
+    }
+
+    .version {
+        margin-top: 50px;
+    }
+
+    .pricecardcontainer {
+        margin-top: 30px;
+        padding: 0px 20px 50px 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}
